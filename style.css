@@ -9,8 +9,86 @@
     font-size: 20px;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    
+}
+
+/* Style for header section */
+header {
+    height: 3rem;
+    color: #000055;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    box-shadow: 0 0 3px 0 grey;
+}
+
+header:hover {
+    box-shadow: 0 0 3px 1px grey;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    padding-left: 0.5rem;
+}
+
+.brand .brand-text {
+    align-self: last baseline;
+    line-height: 2rem;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    min-width: 100px;
+}
+
+.brand .brand-text::first-letter {
+    font-size: 0px;
+    line-height: 1rem;
+}
+
+.nav-links {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    padding: 0.5rem;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: brown;
+    border-bottom: 2px solid;
 }
