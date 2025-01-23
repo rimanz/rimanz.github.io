@@ -52,7 +52,7 @@ header a {
     text-decoration: none;
 }
 
-header .brand {
+.brand {
     height: 100%;
     display: flex;
     align-items: center;
@@ -91,4 +91,24 @@ header .brand {
 .nav-links a:active {
     color: brown;
     border-bottom: 2px solid;
+}
+
+/* Media Queries for Smartphones */
+@media screen and (max-width: 576px) {
+    .brand-text {
+        display: none;
+    }
+}
+
+/* Media Queries for Smaller Smartphones */
+@media screen and (max-width: 480px) {
+    .brand img {
+        height: 75%;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
 }
