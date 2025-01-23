@@ -22,7 +22,6 @@ The portfolio is live and can be accessed at: [https://rimanz.github.io/](https:
 - **HTML5**: For structuring the website.
 - **CSS3**: For styling and layout.
 - **GitHub Pages**: For hosting the website.
-- **Optional Additions**: (e.g., JavaScript, frameworks, or libraries as the project evolves).
 
 ## Challenges and Motivation
 This project is not just a technical endeavor but a personal journey. After several attempts and setbacks, I’m determined to make progress, no matter how slow. Every line of code and every lesson learned is a step closer to my dream of becoming a web developer.
