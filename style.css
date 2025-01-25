@@ -38,7 +38,7 @@ h2.section-heading {
     text-align: center;
     border-bottom: 3px solid;
     width: fit-content;
-    margin: 20px auto;
+    margin: 3rem auto;
 }
 
 p {
@@ -163,6 +163,59 @@ header a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+/* Style for Projects/Portfolio Section */
+.grid {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.grid figure {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    color: grey;
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px silver;
+    transition: all 0.5s ease;
+}
+
+.grid figure > img {
+    height: 160px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    object-position: 50% 0%;
+    padding: 6px;
+    transition: all 0.5s ease;
+}
+
+.grid figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.grid figure:hover {
+    color: inherit;
+    box-shadow: 0px 0px 8px 0px silver;
+}
+
+.grid figure:hover > img {
+    padding: 0;
+    border: 0;
 }
 
 
