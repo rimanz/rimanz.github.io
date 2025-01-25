@@ -28,8 +28,8 @@ img {
 }
 
 section {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
 }
 
 h2.section-heading {
@@ -219,6 +219,45 @@ header a {
     border: 0;
 }
 
+/* Style for Footer */
+footer {
+    font-size: 0.8rem;
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: 0 0 3px 0 silver;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+    color: brown;
+}
+
+footer .quick-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-nav, .social-links {
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0.25rem;
+}
+
+footer .copyright-text {
+    color: slategray;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
 
 /* Media Queries for Smartphones */
 @media screen and (max-width: 576px) {
